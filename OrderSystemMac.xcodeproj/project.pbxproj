@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C718FA721F662E1C00F186C0 /* UserMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = C718FA711F662E1C00F186C0 /* UserMeta.m */; };
+		C718FA771F6633D300F186C0 /* DisappearEventWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C718FA761F6633D300F186C0 /* DisappearEventWindowController.m */; };
+		C718FA7B1F6655BF00F186C0 /* MissionControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C718FA7A1F6655BF00F186C0 /* MissionControl.m */; };
+		C76CD9A41F5FF64A0047F565 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9A31F5FF64A0047F565 /* AppDelegate.m */; };
+		C76CD9A71F5FF64A0047F565 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9A61F5FF64A0047F565 /* main.m */; };
+		C76CD9AA1F5FF64A0047F565 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9A91F5FF64A0047F565 /* ViewController.m */; };
+		C76CD9AC1F5FF64A0047F565 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C76CD9AB1F5FF64A0047F565 /* Assets.xcassets */; };
+		C76CD9AF1F5FF64A0047F565 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C76CD9AD1F5FF64A0047F565 /* Main.storyboard */; };
+		C76CD9BC1F5FF74C0047F565 /* OrderMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9BB1F5FF74C0047F565 /* OrderMeta.m */; };
+		C76CD9C11F5FF7590047F565 /* OrderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9BE1F5FF7590047F565 /* OrderModel.m */; };
+		C76CD9C21F5FF7590047F565 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9C01F5FF7590047F565 /* UserModel.m */; };
+		C76CD9CB1F5FF7690047F565 /* OrderAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9C41F5FF7690047F565 /* OrderAPIService.m */; };
+		C76CD9CC1F5FF7690047F565 /* OrderSystemHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9C61F5FF7690047F565 /* OrderSystemHttpClient.m */; };
+		C76CD9CD1F5FF7690047F565 /* ServicesEnvironment.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9C81F5FF7690047F565 /* ServicesEnvironment.m */; };
+		C76CD9CE1F5FF7690047F565 /* UserAPIService.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9CA1F5FF7690047F565 /* UserAPIService.m */; };
+		C76CD9D81F5FF83A0047F565 /* ALExeItemQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9D51F5FF83A0047F565 /* ALExeItemQueue.m */; };
+		C76CD9D91F5FF83A0047F565 /* ALQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9D71F5FF83A0047F565 /* ALQueue.m */; };
+		C76CD9E61F5FF84E0047F565 /* ALExeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9DB1F5FF84E0047F565 /* ALExeItem.m */; };
+		C76CD9E71F5FF84E0047F565 /* ALTask.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9DD1F5FF84E0047F565 /* ALTask.m */; };
+		C76CD9E81F5FF84E0047F565 /* ALTaskArray.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9DF1F5FF84E0047F565 /* ALTaskArray.m */; };
+		C76CD9E91F5FF84E0047F565 /* ALTaskChain.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9E11F5FF84E0047F565 /* ALTaskChain.m */; };
+		C76CD9EA1F5FF84E0047F565 /* ALTaskGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9E31F5FF84E0047F565 /* ALTaskGroup.m */; };
+		C76CD9EB1F5FF84E0047F565 /* ALTaskManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9E51F5FF84E0047F565 /* ALTaskManager.m */; };
+		C76CD9F21F5FF88F0047F565 /* ALActionResult.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9ED1F5FF88F0047F565 /* ALActionResult.m */; };
+		C76CD9F31F5FF88F0047F565 /* ALActionResultStandardError.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9EF1F5FF88F0047F565 /* ALActionResultStandardError.m */; };
+		C76CD9F41F5FF88F0047F565 /* ALBasicToolBox.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9F11F5FF88F0047F565 /* ALBasicToolBox.m */; };
+		C76CD9FE1F5FF9730047F565 /* ALHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9FB1F5FF9730047F565 /* ALHttpRequest.m */; };
+		C76CD9FF1F5FF9730047F565 /* ALNetworkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CD9FD1F5FF9730047F565 /* ALNetworkHelper.m */; };
+		C76CDA021F5FF9CF0047F565 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDA011F5FF9CF0047F565 /* Reachability.m */; };
+		C76CDA091F5FFB280047F565 /* ALLogHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDA061F5FFB280047F565 /* ALLogHelper.m */; };
+		C76CDA0A1F5FFB280047F565 /* ALLogMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDA081F5FFB280047F565 /* ALLogMeta.m */; };
+		C76CDA0D1F5FFB4A0047F565 /* ALDateUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDA0C1F5FFB4A0047F565 /* ALDateUitil.m */; };
+		C76CDA121F5FFBE30047F565 /* ALFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDA0F1F5FFBE30047F565 /* ALFileHelper.m */; };
+		C76CDA131F5FFBE30047F565 /* ALJsonHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDA111F5FFBE30047F565 /* ALJsonHelper.m */; };
+		C76CDA1A1F5FFCA20047F565 /* NSDecimalNumber+ALExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDA171F5FFCA20047F565 /* NSDecimalNumber+ALExtension.m */; };
+		C76CDA1B1F5FFCA20047F565 /* NSString+ALExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDA191F5FFCA20047F565 /* NSString+ALExtension.m */; };
+		C76CDA221F6001120047F565 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDA211F6001120047F565 /* LoginViewController.m */; };
+		C76CDA251F6006B60047F565 /* AlertMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = C76CDA241F6006B60047F565 /* AlertMessage.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C718FA701F662E1C00F186C0 /* UserMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserMeta.h; path = Source/UserMeta.h; sourceTree = "<group>"; };
+		C718FA711F662E1C00F186C0 /* UserMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserMeta.m; path = Source/UserMeta.m; sourceTree = "<group>"; };
+		C718FA751F6633D300F186C0 /* DisappearEventWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisappearEventWindowController.h; path = Source/DisappearEventWindowController.h; sourceTree = "<group>"; };
+		C718FA761F6633D300F186C0 /* DisappearEventWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisappearEventWindowController.m; path = Source/DisappearEventWindowController.m; sourceTree = "<group>"; };
+		C718FA791F6655BF00F186C0 /* MissionControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MissionControl.h; path = Source/MissionControl.h; sourceTree = "<group>"; };
+		C718FA7A1F6655BF00F186C0 /* MissionControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MissionControl.m; path = Source/MissionControl.m; sourceTree = "<group>"; };
+		C76CD99F1F5FF64A0047F565 /* OrderSystemMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderSystemMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C76CD9A21F5FF64A0047F565 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C76CD9A31F5FF64A0047F565 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C76CD9A61F5FF64A0047F565 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C76CD9A81F5FF64A0047F565 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C76CD9A91F5FF64A0047F565 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C76CD9AB1F5FF64A0047F565 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C76CD9AE1F5FF64A0047F565 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C76CD9B01F5FF64A0047F565 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C76CD9BA1F5FF74C0047F565 /* OrderMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderMeta.h; path = Source/OrderMeta.h; sourceTree = "<group>"; };
+		C76CD9BB1F5FF74C0047F565 /* OrderMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderMeta.m; path = Source/OrderMeta.m; sourceTree = "<group>"; };
+		C76CD9BD1F5FF7590047F565 /* OrderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderModel.h; path = Source/OrderModel.h; sourceTree = "<group>"; };
+		C76CD9BE1F5FF7590047F565 /* OrderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderModel.m; path = Source/OrderModel.m; sourceTree = "<group>"; };
+		C76CD9BF1F5FF7590047F565 /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserModel.h; path = Source/UserModel.h; sourceTree = "<group>"; };
+		C76CD9C01F5FF7590047F565 /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserModel.m; path = Source/UserModel.m; sourceTree = "<group>"; };
+		C76CD9C31F5FF7690047F565 /* OrderAPIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderAPIService.h; path = Source/OrderAPIService.h; sourceTree = "<group>"; };
+		C76CD9C41F5FF7690047F565 /* OrderAPIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderAPIService.m; path = Source/OrderAPIService.m; sourceTree = "<group>"; };
+		C76CD9C51F5FF7690047F565 /* OrderSystemHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OrderSystemHttpClient.h; path = Source/OrderSystemHttpClient.h; sourceTree = "<group>"; };
+		C76CD9C61F5FF7690047F565 /* OrderSystemHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OrderSystemHttpClient.m; path = Source/OrderSystemHttpClient.m; sourceTree = "<group>"; };
+		C76CD9C71F5FF7690047F565 /* ServicesEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServicesEnvironment.h; path = Source/ServicesEnvironment.h; sourceTree = "<group>"; };
+		C76CD9C81F5FF7690047F565 /* ServicesEnvironment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServicesEnvironment.m; path = Source/ServicesEnvironment.m; sourceTree = "<group>"; };
+		C76CD9C91F5FF7690047F565 /* UserAPIService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserAPIService.h; path = Source/UserAPIService.h; sourceTree = "<group>"; };
+		C76CD9CA1F5FF7690047F565 /* UserAPIService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserAPIService.m; path = Source/UserAPIService.m; sourceTree = "<group>"; };
+		C76CD9D41F5FF83A0047F565 /* ALExeItemQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALExeItemQueue.h; path = OrderSystemMac/ALFramework/CustomClass/ALExeItemQueue.h; sourceTree = "<group>"; };
+		C76CD9D51F5FF83A0047F565 /* ALExeItemQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALExeItemQueue.m; path = OrderSystemMac/ALFramework/CustomClass/ALExeItemQueue.m; sourceTree = "<group>"; };
+		C76CD9D61F5FF83A0047F565 /* ALQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALQueue.h; path = OrderSystemMac/ALFramework/CustomClass/ALQueue.h; sourceTree = "<group>"; };
+		C76CD9D71F5FF83A0047F565 /* ALQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALQueue.m; path = OrderSystemMac/ALFramework/CustomClass/ALQueue.m; sourceTree = "<group>"; };
+		C76CD9DA1F5FF84E0047F565 /* ALExeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALExeItem.h; path = OrderSystemMac/ALFramework/TaskManager/ALExeItem.h; sourceTree = "<group>"; };
+		C76CD9DB1F5FF84E0047F565 /* ALExeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALExeItem.m; path = OrderSystemMac/ALFramework/TaskManager/ALExeItem.m; sourceTree = "<group>"; };
+		C76CD9DC1F5FF84E0047F565 /* ALTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTask.h; path = OrderSystemMac/ALFramework/TaskManager/ALTask.h; sourceTree = "<group>"; };
+		C76CD9DD1F5FF84E0047F565 /* ALTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTask.m; path = OrderSystemMac/ALFramework/TaskManager/ALTask.m; sourceTree = "<group>"; };
+		C76CD9DE1F5FF84E0047F565 /* ALTaskArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTaskArray.h; path = OrderSystemMac/ALFramework/TaskManager/ALTaskArray.h; sourceTree = "<group>"; };
+		C76CD9DF1F5FF84E0047F565 /* ALTaskArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTaskArray.m; path = OrderSystemMac/ALFramework/TaskManager/ALTaskArray.m; sourceTree = "<group>"; };
+		C76CD9E01F5FF84E0047F565 /* ALTaskChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTaskChain.h; path = OrderSystemMac/ALFramework/TaskManager/ALTaskChain.h; sourceTree = "<group>"; };
+		C76CD9E11F5FF84E0047F565 /* ALTaskChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTaskChain.m; path = OrderSystemMac/ALFramework/TaskManager/ALTaskChain.m; sourceTree = "<group>"; };
+		C76CD9E21F5FF84E0047F565 /* ALTaskGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTaskGroup.h; path = OrderSystemMac/ALFramework/TaskManager/ALTaskGroup.h; sourceTree = "<group>"; };
+		C76CD9E31F5FF84E0047F565 /* ALTaskGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTaskGroup.m; path = OrderSystemMac/ALFramework/TaskManager/ALTaskGroup.m; sourceTree = "<group>"; };
+		C76CD9E41F5FF84E0047F565 /* ALTaskManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALTaskManager.h; path = OrderSystemMac/ALFramework/TaskManager/ALTaskManager.h; sourceTree = "<group>"; };
+		C76CD9E51F5FF84E0047F565 /* ALTaskManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALTaskManager.m; path = OrderSystemMac/ALFramework/TaskManager/ALTaskManager.m; sourceTree = "<group>"; };
+		C76CD9EC1F5FF88F0047F565 /* ALActionResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALActionResult.h; path = OrderSystemMac/ALFramework/Support/ALActionResult.h; sourceTree = "<group>"; };
+		C76CD9ED1F5FF88F0047F565 /* ALActionResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALActionResult.m; path = OrderSystemMac/ALFramework/Support/ALActionResult.m; sourceTree = "<group>"; };
+		C76CD9EE1F5FF88F0047F565 /* ALActionResultStandardError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALActionResultStandardError.h; path = OrderSystemMac/ALFramework/Support/ALActionResultStandardError.h; sourceTree = "<group>"; };
+		C76CD9EF1F5FF88F0047F565 /* ALActionResultStandardError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALActionResultStandardError.m; path = OrderSystemMac/ALFramework/Support/ALActionResultStandardError.m; sourceTree = "<group>"; };
+		C76CD9F01F5FF88F0047F565 /* ALBasicToolBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALBasicToolBox.h; path = OrderSystemMac/ALFramework/Support/ALBasicToolBox.h; sourceTree = "<group>"; };
+		C76CD9F11F5FF88F0047F565 /* ALBasicToolBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALBasicToolBox.m; path = OrderSystemMac/ALFramework/Support/ALBasicToolBox.m; sourceTree = "<group>"; };
+		C76CD9F51F5FF8A20047F565 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C76CD9F61F5FF8AE0047F565 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		C76CD9F71F5FF8D70047F565 /* ALFramework.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALFramework.h; path = OrderSystemMac/ALFramework/ALFramework.h; sourceTree = "<group>"; };
+		C76CD9FA1F5FF9730047F565 /* ALHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALHttpRequest.h; path = OrderSystemMac/ALFramework/Network/ALHttpRequest.h; sourceTree = "<group>"; };
+		C76CD9FB1F5FF9730047F565 /* ALHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALHttpRequest.m; path = OrderSystemMac/ALFramework/Network/ALHttpRequest.m; sourceTree = "<group>"; };
+		C76CD9FC1F5FF9730047F565 /* ALNetworkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALNetworkHelper.h; path = OrderSystemMac/ALFramework/Network/ALNetworkHelper.h; sourceTree = "<group>"; };
+		C76CD9FD1F5FF9730047F565 /* ALNetworkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALNetworkHelper.m; path = OrderSystemMac/ALFramework/Network/ALNetworkHelper.m; sourceTree = "<group>"; };
+		C76CDA001F5FF9CF0047F565 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = OrderSystemMac/ALFramework/Network/Reachability.h; sourceTree = "<group>"; };
+		C76CDA011F5FF9CF0047F565 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = OrderSystemMac/ALFramework/Network/Reachability.m; sourceTree = "<group>"; };
+		C76CDA031F5FFB0F0047F565 /* ALCommonMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALCommonMacros.h; path = OrderSystemMac/ALFramework/Support/ALCommonMacros.h; sourceTree = "<group>"; };
+		C76CDA051F5FFB280047F565 /* ALLogHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALLogHelper.h; path = OrderSystemMac/ALFramework/LogHelper/ALLogHelper.h; sourceTree = "<group>"; };
+		C76CDA061F5FFB280047F565 /* ALLogHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALLogHelper.m; path = OrderSystemMac/ALFramework/LogHelper/ALLogHelper.m; sourceTree = "<group>"; };
+		C76CDA071F5FFB280047F565 /* ALLogMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALLogMeta.h; path = OrderSystemMac/ALFramework/LogHelper/ALLogMeta.h; sourceTree = "<group>"; };
+		C76CDA081F5FFB280047F565 /* ALLogMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALLogMeta.m; path = OrderSystemMac/ALFramework/LogHelper/ALLogMeta.m; sourceTree = "<group>"; };
+		C76CDA0B1F5FFB4A0047F565 /* ALDateUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALDateUitil.h; path = OrderSystemMac/ALFramework/Support/ALDateUitil.h; sourceTree = "<group>"; };
+		C76CDA0C1F5FFB4A0047F565 /* ALDateUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALDateUitil.m; path = OrderSystemMac/ALFramework/Support/ALDateUitil.m; sourceTree = "<group>"; };
+		C76CDA0E1F5FFBE30047F565 /* ALFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALFileHelper.h; path = OrderSystemMac/ALFramework/Support/ALFileHelper.h; sourceTree = "<group>"; };
+		C76CDA0F1F5FFBE30047F565 /* ALFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALFileHelper.m; path = OrderSystemMac/ALFramework/Support/ALFileHelper.m; sourceTree = "<group>"; };
+		C76CDA101F5FFBE30047F565 /* ALJsonHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ALJsonHelper.h; path = OrderSystemMac/ALFramework/Support/ALJsonHelper.h; sourceTree = "<group>"; };
+		C76CDA111F5FFBE30047F565 /* ALJsonHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ALJsonHelper.m; path = OrderSystemMac/ALFramework/Support/ALJsonHelper.m; sourceTree = "<group>"; };
+		C76CDA141F5FFC130047F565 /* ALConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ALConfig.h; path = OrderSystemMac/ALFramework/ALConfig.h; sourceTree = "<group>"; };
+		C76CDA161F5FFCA20047F565 /* NSDecimalNumber+ALExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDecimalNumber+ALExtension.h"; path = "OrderSystemMac/ALFramework/Category/NSDecimalNumber+ALExtension.h"; sourceTree = "<group>"; };
+		C76CDA171F5FFCA20047F565 /* NSDecimalNumber+ALExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDecimalNumber+ALExtension.m"; path = "OrderSystemMac/ALFramework/Category/NSDecimalNumber+ALExtension.m"; sourceTree = "<group>"; };
+		C76CDA181F5FFCA20047F565 /* NSString+ALExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+ALExtension.h"; path = "OrderSystemMac/ALFramework/Category/NSString+ALExtension.h"; sourceTree = "<group>"; };
+		C76CDA191F5FFCA20047F565 /* NSString+ALExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+ALExtension.m"; path = "OrderSystemMac/ALFramework/Category/NSString+ALExtension.m"; sourceTree = "<group>"; };
+		C76CDA201F6001120047F565 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C76CDA211F6001120047F565 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C76CDA231F6006B60047F565 /* AlertMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertMessage.h; sourceTree = "<group>"; };
+		C76CDA241F6006B60047F565 /* AlertMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertMessage.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C76CD99C1F5FF64A0047F565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C718FA731F66339E00F186C0 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				C718FA751F6633D300F186C0 /* DisappearEventWindowController.h */,
+				C718FA761F6633D300F186C0 /* DisappearEventWindowController.m */,
+			);
+			name = Window;
+			sourceTree = "<group>";
+		};
+		C718FA741F6633A300F186C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD9A81F5FF64A0047F565 /* ViewController.h */,
+				C76CD9A91F5FF64A0047F565 /* ViewController.m */,
+				C76CDA201F6001120047F565 /* LoginViewController.h */,
+				C76CDA211F6001120047F565 /* LoginViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C718FA781F6654C800F186C0 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDA231F6006B60047F565 /* AlertMessage.h */,
+				C76CDA241F6006B60047F565 /* AlertMessage.m */,
+				C718FA791F6655BF00F186C0 /* MissionControl.h */,
+				C718FA7A1F6655BF00F186C0 /* MissionControl.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		C76CD9961F5FF64A0047F565 = {
+			isa = PBXGroup;
+			children = (
+				C76CD9CF1F5FF8020047F565 /* ALFramework */,
+				C76CD9A11F5FF64A0047F565 /* OrderSystemMac */,
+				C76CD9A01F5FF64A0047F565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C76CD9A01F5FF64A0047F565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD99F1F5FF64A0047F565 /* OrderSystemMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C76CD9A11F5FF64A0047F565 /* OrderSystemMac */ = {
+			isa = PBXGroup;
+			children = (
+				C718FA781F6654C800F186C0 /* Support */,
+				C76CD9B61F5FF70A0047F565 /* APIService */,
+				C76CD9B71F5FF7110047F565 /* ServiceModel */,
+				C76CD9B81F5FF7190047F565 /* DataMeta */,
+				C76CD9F81F5FF8F10047F565 /* Config */,
+				C76CD9B91F5FF7300047F565 /* Controller */,
+				C76CD9A21F5FF64A0047F565 /* AppDelegate.h */,
+				C76CD9A31F5FF64A0047F565 /* AppDelegate.m */,
+				C76CD9AB1F5FF64A0047F565 /* Assets.xcassets */,
+				C76CD9AD1F5FF64A0047F565 /* Main.storyboard */,
+				C76CD9B01F5FF64A0047F565 /* Info.plist */,
+				C76CD9A51F5FF64A0047F565 /* Supporting Files */,
+			);
+			path = OrderSystemMac;
+			sourceTree = "<group>";
+		};
+		C76CD9A51F5FF64A0047F565 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD9A61F5FF64A0047F565 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C76CD9B61F5FF70A0047F565 /* APIService */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD9F91F5FF9270047F565 /* Core */,
+				C76CD9C31F5FF7690047F565 /* OrderAPIService.h */,
+				C76CD9C41F5FF7690047F565 /* OrderAPIService.m */,
+				C76CD9C91F5FF7690047F565 /* UserAPIService.h */,
+				C76CD9CA1F5FF7690047F565 /* UserAPIService.m */,
+			);
+			name = APIService;
+			sourceTree = "<group>";
+		};
+		C76CD9B71F5FF7110047F565 /* ServiceModel */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD9BD1F5FF7590047F565 /* OrderModel.h */,
+				C76CD9BE1F5FF7590047F565 /* OrderModel.m */,
+				C76CD9BF1F5FF7590047F565 /* UserModel.h */,
+				C76CD9C01F5FF7590047F565 /* UserModel.m */,
+			);
+			name = ServiceModel;
+			sourceTree = "<group>";
+		};
+		C76CD9B81F5FF7190047F565 /* DataMeta */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD9BA1F5FF74C0047F565 /* OrderMeta.h */,
+				C76CD9BB1F5FF74C0047F565 /* OrderMeta.m */,
+				C718FA701F662E1C00F186C0 /* UserMeta.h */,
+				C718FA711F662E1C00F186C0 /* UserMeta.m */,
+			);
+			name = DataMeta;
+			sourceTree = "<group>";
+		};
+		C76CD9B91F5FF7300047F565 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C718FA741F6633A300F186C0 /* View */,
+				C718FA731F66339E00F186C0 /* Window */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C76CD9CF1F5FF8020047F565 /* ALFramework */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDA141F5FFC130047F565 /* ALConfig.h */,
+				C76CD9F71F5FF8D70047F565 /* ALFramework.h */,
+				C76CDA151F5FFC760047F565 /* Category */,
+				C76CDA041F5FFB190047F565 /* Log */,
+				C76CD9D31F5FF82D0047F565 /* CustomClass */,
+				C76CD9D21F5FF8130047F565 /* TaskManager */,
+				C76CD9D11F5FF80E0047F565 /* Support */,
+				C76CD9D01F5FF8080047F565 /* Network */,
+			);
+			name = ALFramework;
+			sourceTree = "<group>";
+		};
+		C76CD9D01F5FF8080047F565 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDA001F5FF9CF0047F565 /* Reachability.h */,
+				C76CDA011F5FF9CF0047F565 /* Reachability.m */,
+				C76CD9FA1F5FF9730047F565 /* ALHttpRequest.h */,
+				C76CD9FB1F5FF9730047F565 /* ALHttpRequest.m */,
+				C76CD9FC1F5FF9730047F565 /* ALNetworkHelper.h */,
+				C76CD9FD1F5FF9730047F565 /* ALNetworkHelper.m */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		C76CD9D11F5FF80E0047F565 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDA0E1F5FFBE30047F565 /* ALFileHelper.h */,
+				C76CDA0F1F5FFBE30047F565 /* ALFileHelper.m */,
+				C76CDA101F5FFBE30047F565 /* ALJsonHelper.h */,
+				C76CDA111F5FFBE30047F565 /* ALJsonHelper.m */,
+				C76CDA0B1F5FFB4A0047F565 /* ALDateUitil.h */,
+				C76CDA0C1F5FFB4A0047F565 /* ALDateUitil.m */,
+				C76CDA031F5FFB0F0047F565 /* ALCommonMacros.h */,
+				C76CD9EC1F5FF88F0047F565 /* ALActionResult.h */,
+				C76CD9ED1F5FF88F0047F565 /* ALActionResult.m */,
+				C76CD9EE1F5FF88F0047F565 /* ALActionResultStandardError.h */,
+				C76CD9EF1F5FF88F0047F565 /* ALActionResultStandardError.m */,
+				C76CD9F01F5FF88F0047F565 /* ALBasicToolBox.h */,
+				C76CD9F11F5FF88F0047F565 /* ALBasicToolBox.m */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		C76CD9D21F5FF8130047F565 /* TaskManager */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD9DA1F5FF84E0047F565 /* ALExeItem.h */,
+				C76CD9DB1F5FF84E0047F565 /* ALExeItem.m */,
+				C76CD9DC1F5FF84E0047F565 /* ALTask.h */,
+				C76CD9DD1F5FF84E0047F565 /* ALTask.m */,
+				C76CD9DE1F5FF84E0047F565 /* ALTaskArray.h */,
+				C76CD9DF1F5FF84E0047F565 /* ALTaskArray.m */,
+				C76CD9E01F5FF84E0047F565 /* ALTaskChain.h */,
+				C76CD9E11F5FF84E0047F565 /* ALTaskChain.m */,
+				C76CD9E21F5FF84E0047F565 /* ALTaskGroup.h */,
+				C76CD9E31F5FF84E0047F565 /* ALTaskGroup.m */,
+				C76CD9E41F5FF84E0047F565 /* ALTaskManager.h */,
+				C76CD9E51F5FF84E0047F565 /* ALTaskManager.m */,
+			);
+			name = TaskManager;
+			sourceTree = "<group>";
+		};
+		C76CD9D31F5FF82D0047F565 /* CustomClass */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD9D41F5FF83A0047F565 /* ALExeItemQueue.h */,
+				C76CD9D51F5FF83A0047F565 /* ALExeItemQueue.m */,
+				C76CD9D61F5FF83A0047F565 /* ALQueue.h */,
+				C76CD9D71F5FF83A0047F565 /* ALQueue.m */,
+			);
+			name = CustomClass;
+			sourceTree = "<group>";
+		};
+		C76CD9F81F5FF8F10047F565 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD9F51F5FF8A20047F565 /* PrefixHeader.pch */,
+				C76CD9F61F5FF8AE0047F565 /* Config.h */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		C76CD9F91F5FF9270047F565 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C76CD9C51F5FF7690047F565 /* OrderSystemHttpClient.h */,
+				C76CD9C61F5FF7690047F565 /* OrderSystemHttpClient.m */,
+				C76CD9C71F5FF7690047F565 /* ServicesEnvironment.h */,
+				C76CD9C81F5FF7690047F565 /* ServicesEnvironment.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C76CDA041F5FFB190047F565 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDA051F5FFB280047F565 /* ALLogHelper.h */,
+				C76CDA061F5FFB280047F565 /* ALLogHelper.m */,
+				C76CDA071F5FFB280047F565 /* ALLogMeta.h */,
+				C76CDA081F5FFB280047F565 /* ALLogMeta.m */,
+			);
+			name = Log;
+			sourceTree = "<group>";
+		};
+		C76CDA151F5FFC760047F565 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C76CDA161F5FFCA20047F565 /* NSDecimalNumber+ALExtension.h */,
+				C76CDA171F5FFCA20047F565 /* NSDecimalNumber+ALExtension.m */,
+				C76CDA181F5FFCA20047F565 /* NSString+ALExtension.h */,
+				C76CDA191F5FFCA20047F565 /* NSString+ALExtension.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C76CD99E1F5FF64A0047F565 /* OrderSystemMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C76CD9B31F5FF64A0047F565 /* Build configuration list for PBXNativeTarget "OrderSystemMac" */;
+			buildPhases = (
+				C76CD99B1F5FF64A0047F565 /* Sources */,
+				C76CD99C1F5FF64A0047F565 /* Frameworks */,
+				C76CD99D1F5FF64A0047F565 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderSystemMac;
+			productName = OrderSystemMac;
+			productReference = C76CD99F1F5FF64A0047F565 /* OrderSystemMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C76CD9971F5FF64A0047F565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = AlancLiu;
+				TargetAttributes = {
+					C76CD99E1F5FF64A0047F565 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = V5MJ5VLR7Y;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C76CD99A1F5FF64A0047F565 /* Build configuration list for PBXProject "OrderSystemMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C76CD9961F5FF64A0047F565;
+			productRefGroup = C76CD9A01F5FF64A0047F565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C76CD99E1F5FF64A0047F565 /* OrderSystemMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C76CD99D1F5FF64A0047F565 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76CD9AC1F5FF64A0047F565 /* Assets.xcassets in Resources */,
+				C76CD9AF1F5FF64A0047F565 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C76CD99B1F5FF64A0047F565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C76CD9FE1F5FF9730047F565 /* ALHttpRequest.m in Sources */,
+				C76CD9F21F5FF88F0047F565 /* ALActionResult.m in Sources */,
+				C76CDA121F5FFBE30047F565 /* ALFileHelper.m in Sources */,
+				C76CD9AA1F5FF64A0047F565 /* ViewController.m in Sources */,
+				C76CD9BC1F5FF74C0047F565 /* OrderMeta.m in Sources */,
+				C76CDA0A1F5FFB280047F565 /* ALLogMeta.m in Sources */,
+				C718FA7B1F6655BF00F186C0 /* MissionControl.m in Sources */,
+				C76CD9F41F5FF88F0047F565 /* ALBasicToolBox.m in Sources */,
+				C76CD9CC1F5FF7690047F565 /* OrderSystemHttpClient.m in Sources */,
+				C76CDA221F6001120047F565 /* LoginViewController.m in Sources */,
+				C76CD9CB1F5FF7690047F565 /* OrderAPIService.m in Sources */,
+				C76CD9F31F5FF88F0047F565 /* ALActionResultStandardError.m in Sources */,
+				C76CDA1A1F5FFCA20047F565 /* NSDecimalNumber+ALExtension.m in Sources */,
+				C76CDA091F5FFB280047F565 /* ALLogHelper.m in Sources */,
+				C76CD9C21F5FF7590047F565 /* UserModel.m in Sources */,
+				C76CD9C11F5FF7590047F565 /* OrderModel.m in Sources */,
+				C76CDA021F5FF9CF0047F565 /* Reachability.m in Sources */,
+				C76CD9EA1F5FF84E0047F565 /* ALTaskGroup.m in Sources */,
+				C76CD9D81F5FF83A0047F565 /* ALExeItemQueue.m in Sources */,
+				C76CD9A71F5FF64A0047F565 /* main.m in Sources */,
+				C76CD9CE1F5FF7690047F565 /* UserAPIService.m in Sources */,
+				C76CD9E71F5FF84E0047F565 /* ALTask.m in Sources */,
+				C76CDA0D1F5FFB4A0047F565 /* ALDateUitil.m in Sources */,
+				C76CD9FF1F5FF9730047F565 /* ALNetworkHelper.m in Sources */,
+				C76CD9E61F5FF84E0047F565 /* ALExeItem.m in Sources */,
+				C76CD9E91F5FF84E0047F565 /* ALTaskChain.m in Sources */,
+				C76CD9A41F5FF64A0047F565 /* AppDelegate.m in Sources */,
+				C76CD9E81F5FF84E0047F565 /* ALTaskArray.m in Sources */,
+				C76CD9D91F5FF83A0047F565 /* ALQueue.m in Sources */,
+				C76CD9CD1F5FF7690047F565 /* ServicesEnvironment.m in Sources */,
+				C76CDA251F6006B60047F565 /* AlertMessage.m in Sources */,
+				C718FA771F6633D300F186C0 /* DisappearEventWindowController.m in Sources */,
+				C76CDA131F5FFBE30047F565 /* ALJsonHelper.m in Sources */,
+				C718FA721F662E1C00F186C0 /* UserMeta.m in Sources */,
+				C76CD9EB1F5FF84E0047F565 /* ALTaskManager.m in Sources */,
+				C76CDA1B1F5FFCA20047F565 /* NSString+ALExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C76CD9AD1F5FF64A0047F565 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C76CD9AE1F5FF64A0047F565 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C76CD9B11F5FF64A0047F565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C76CD9B21F5FF64A0047F565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C76CD9B41F5FF64A0047F565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V5MJ5VLR7Y;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OrderSystemMac/PrefixHeader.pch";
+				INFOPLIST_FILE = OrderSystemMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanc.personal.OrderSystemMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C76CD9B51F5FF64A0047F565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = V5MJ5VLR7Y;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OrderSystemMac/PrefixHeader.pch";
+				INFOPLIST_FILE = OrderSystemMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alanc.personal.OrderSystemMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C76CD99A1F5FF64A0047F565 /* Build configuration list for PBXProject "OrderSystemMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76CD9B11F5FF64A0047F565 /* Debug */,
+				C76CD9B21F5FF64A0047F565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C76CD9B31F5FF64A0047F565 /* Build configuration list for PBXNativeTarget "OrderSystemMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C76CD9B41F5FF64A0047F565 /* Debug */,
+				C76CD9B51F5FF64A0047F565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C76CD9971F5FF64A0047F565 /* Project object */;
+}
