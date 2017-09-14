@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45C04C231F67EF1C00D1B4F6 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C04C221F67EF1C00D1B4F6 /* ProfileViewController.m */; };
 		C718FA721F662E1C00F186C0 /* UserMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = C718FA711F662E1C00F186C0 /* UserMeta.m */; };
 		C718FA771F6633D300F186C0 /* DisappearEventWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = C718FA761F6633D300F186C0 /* DisappearEventWindowController.m */; };
 		C718FA7B1F6655BF00F186C0 /* MissionControl.m in Sources */ = {isa = PBXBuildFile; fileRef = C718FA7A1F6655BF00F186C0 /* MissionControl.m */; };
@@ -48,6 +49,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45C04C211F67EF1C00D1B4F6 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProfileViewController.h; path = Source/ProfileViewController.h; sourceTree = "<group>"; };
+		45C04C221F67EF1C00D1B4F6 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProfileViewController.m; path = Source/ProfileViewController.m; sourceTree = "<group>"; };
 		C718FA701F662E1C00F186C0 /* UserMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserMeta.h; path = Source/UserMeta.h; sourceTree = "<group>"; };
 		C718FA711F662E1C00F186C0 /* UserMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserMeta.m; path = Source/UserMeta.m; sourceTree = "<group>"; };
 		C718FA751F6633D300F186C0 /* DisappearEventWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisappearEventWindowController.h; path = Source/DisappearEventWindowController.h; sourceTree = "<group>"; };
@@ -155,6 +158,8 @@
 			children = (
 				C76CD9A81F5FF64A0047F565 /* ViewController.h */,
 				C76CD9A91F5FF64A0047F565 /* ViewController.m */,
+				45C04C211F67EF1C00D1B4F6 /* ProfileViewController.h */,
+				45C04C221F67EF1C00D1B4F6 /* ProfileViewController.m */,
 				C76CDA201F6001120047F565 /* LoginViewController.h */,
 				C76CDA211F6001120047F565 /* LoginViewController.m */,
 			);
@@ -457,6 +462,7 @@
 				C76CD9BC1F5FF74C0047F565 /* OrderMeta.m in Sources */,
 				C76CDA0A1F5FFB280047F565 /* ALLogMeta.m in Sources */,
 				C718FA7B1F6655BF00F186C0 /* MissionControl.m in Sources */,
+				45C04C231F67EF1C00D1B4F6 /* ProfileViewController.m in Sources */,
 				C76CD9F41F5FF88F0047F565 /* ALBasicToolBox.m in Sources */,
 				C76CD9CC1F5FF7690047F565 /* OrderSystemHttpClient.m in Sources */,
 				C76CDA221F6001120047F565 /* LoginViewController.m in Sources */,
@@ -601,6 +607,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OrderSystemMac/PrefixHeader.pch";
 				INFOPLIST_FILE = OrderSystemMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alanc.personal.OrderSystemMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -615,6 +622,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/OrderSystemMac/PrefixHeader.pch";
 				INFOPLIST_FILE = OrderSystemMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.alanc.personal.OrderSystemMac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

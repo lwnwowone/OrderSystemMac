@@ -23,6 +23,7 @@
 @property (weak) IBOutlet NSButton *logoutButton;
 @property (weak) IBOutlet NSButton *orderButton;
 @property (weak) IBOutlet NSButton *refreshListButton;
+@property (weak) IBOutlet NSButton *profileButton;
 
 @end
 
@@ -41,6 +42,7 @@
     _logoutButton.hidden = true;
     _orderButton.hidden = true;
     _refreshListButton.hidden = true;
+    _profileButton.hidden = true;
 
     dataList = [NSMutableArray new];
     
@@ -106,9 +108,25 @@
 
 - (IBAction)Logout:(NSButton *)sender {
     [UserModel sharedInstance].currentUser = nil;
-    [dataList removeAllObjects];
+    dataList = [NSMutableArray new];
     [_orderTable reloadData];
     
+    _loginButton.hidden = false;
+    _profileButton.hidden = true;
+    _logoutButton.hidden = true;
+    _orderButton.hidden = true;
+    _refreshListButton.hidden = true;
+}
+
+- (IBAction)showProfile:(NSButton *)sender {
+    NSStoryboard *storyBoard = [NSStoryboard storyboardWithName:@"Main" bundle:nil]; // get a reference to the storyboard
+    NSWindowController *winController = [storyBoard instantiateControllerWithIdentifier:@"ProfileWindowController"]; // instantiate your window controller
+    
+    [[NSApplication sharedApplication] beginSheet:winController.window
+                                   modalForWindow:self.view.window
+                                    modalDelegate:self
+                                   didEndSelector:nil
+                                      contextInfo:nil];
 }
 
 - (void)checkToken{
@@ -144,7 +162,7 @@
     [ALBasicToolBox runFunctionInMainThread:^{
         _loginButton.hidden = true;
         _logoutButton.hidden = false;
-
+        _profileButton.hidden = false;
         _orderButton.hidden = false;
         _refreshListButton.hidden = false;
         

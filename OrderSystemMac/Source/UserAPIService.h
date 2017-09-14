@@ -16,6 +16,9 @@
 -(ALActionResultWithData *)loginWith:(NSString *)username
                          andPassword:(NSString *)password;
 
+-(ALActionResult *)changePasswordWithOPassword:(NSString *)oPassword
+                                andNewPassword:(NSString *)nPassword;
+
 -(ALActionResultWith2Data *)getProfile;
 
 @end

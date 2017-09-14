@@ -54,6 +54,12 @@ static UserModel *instance;
     } andCallback:callback];
 }
 
+-(void)changePasswordWithOPassword:(NSString *)oPassword andNPassword:(NSString *)nPassword andFinishBlock:(void(^)(ALActionResult *))callback{
+    [ALTask runNoneReturnDataTaskWithActionBlock:^ALActionResult *{
+        return [apiService changePasswordWithOPassword:oPassword andNewPassword:nPassword];
+    } andCallback:callback];
+}
+
 -(void)autoLoginWithFinishBlock:(void(^)(ALActionResult *))callback{
     [ALTask runNoneReturnDataTaskWithActionBlock:^ALActionResult *{
         ALActionResultWith2Data *apiResult = [apiService getProfile];

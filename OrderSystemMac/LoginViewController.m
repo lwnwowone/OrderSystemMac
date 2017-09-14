@@ -26,6 +26,7 @@
 - (IBAction)btnLogin:(NSButton *)sender {
     NSString *username = _tfUsername.stringValue;
     NSString *password = _tfPassword.stringValue;
+    __TO_WEAK_SELF;
     [[UserModel sharedInstance] loginWithUsername:username andPassword:password andFinishBlock:^(ALActionResult *funcResult) {
         if(funcResult.result){
             [ALBasicToolBox runFunctionInMainThread:^{

@@ -61,6 +61,16 @@
                                                                 }];
 }
 
+-(ALActionResult *)changePasswordWithOPassword:(NSString *)oPassword
+                                andNewPassword:(NSString *)nPassword{
+    NSDictionary *parameters = @{@"oPassword":oPassword,
+                                 @"nPassword":nPassword};
+    
+    return [OrderSystemHttpClient runNeedTokenAPIWithAPIAddress:@"password/change"
+                                                  andParameters:parameters
+                                               andRequestMethod:ALHttpMethodPut];
+}
+
 -(ALActionResultWith2Data *)getProfile{
     return (ALActionResultWith2Data *)[OrderSystemHttpClient runNeedTokenAPIWithAPIAddress:@"profile"
                                                                             andParameters:nil

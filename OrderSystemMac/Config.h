@@ -9,6 +9,7 @@
 #ifndef Config_h
 #define Config_h
 
-#define HTTP_HOST @"http://192.168.100.141:12345"
+#define HTTP_HOST @"http://127.0.0.1:12345"
+//#define HTTP_HOST @"http://192.168.100.141:12345"
 
 #endif /* Config_h */

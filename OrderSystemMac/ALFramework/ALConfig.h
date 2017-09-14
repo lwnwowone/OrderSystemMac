@@ -12,4 +12,7 @@
 #define DEFAULT_ALHTTP_CONTENT_TYPE 0
 #define HTTP_PARAMETER_OUTPUT_MODE true
 
+//#define INTERNET_CHECK_URL @"www.baidu.com"
+#define INTERNET_CHECK_URL @"127.0.0.1"
+
 #endif /* Header_h */
